@@ -37,7 +37,10 @@ export default function App() {
     <div className="flex flex-col items-center justify-center h-screen -mt-16 container">
       {yesPressed ? (
         <>
-          <img src="https://media1.tenor.com/m/_q_DErEEcicAAAAC/otter-love.gif" />
+          <img
+            src="https://media1.tenor.com/m/M7VTEqN1sXMAAAAC/cat-cats.gif"
+            alt="happy"
+          />
           <div className="text-4xl font-bold my-4 header">Love u Pookie!!!</div>
         </>
       ) : (
@@ -45,6 +48,7 @@ export default function App() {
           <img
             className="h-[200px]"
             src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDVqZ3NsZHdpd3FsaXNjY2gzeDNhZHR1M3hwcHBybGEwNDNiaXozZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RLG2ZFo3yBMHYXC36F/giphy.gif"
+            alt="invite"
           />
           <h1 className="text-4xl my-4 header">
             Will you be my Valentine Pookie?
